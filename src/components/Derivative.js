@@ -13,7 +13,7 @@ function Derivative() {
     <div>
       <h1>Derivatives!</h1>
       <label htmlFor="expression">Expression</label>
-      <input type="text" name="expression" value={value} onChange={e => setValue(e.target.value)} />
+      <input className="firstInput" type="text" name="expression" value={value} onChange={e => setValue(e.target.value)} />
       <label htmlFor="variable">Variable</label>
       <input type="text" name="variable" value={variable} onChange={e => setVariable(e.target.value)}/>
       <button onClick={handleSubmit}>Submit</button>
